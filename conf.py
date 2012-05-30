@@ -43,7 +43,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'The little book of Buster.js'
+project = u'The little book of Buster.JS'
 copyright = u'2012, azu'
 
 # The version info for the project you're documenting, acts as replacement for
