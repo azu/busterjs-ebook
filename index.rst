@@ -7,7 +7,8 @@ Contents:
    :maxdepth: 2
 
    doc/introduction/installation
-
+   doc/column/TravisCI
+    
 
 Indices and tables
 ==================
