@@ -1,3 +1,6 @@
 [submodule "_themes/sphinx-theme-okfn"]
 	path = _themes/sphinx-theme-okfn
 	url = git://github.com/okfn/sphinx-theme-okfn.git
+[submodule "busterjs-kumite"]
+	path = busterjs-kumite
+	url = https://github.com/azu/busterjs-kumite.git

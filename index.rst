@@ -7,6 +7,7 @@ Contents:
    :maxdepth: 2
 
    doc/introduction/installation
+   doc/introduction/getting-started
    doc/column/TravisCI
     
 

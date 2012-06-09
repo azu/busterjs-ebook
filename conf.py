@@ -67,7 +67,7 @@ language="ja"
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = ['_build', 'BusterJS-Kumite', 'readme.rst' ]
 
 # The reST default role (used for this markup: `text`) to use for all documents.
 #default_role = None
@@ -248,3 +248,10 @@ texinfo_documents = [
 # How to display URL addresses: 'footnote', 'no', or 'inline'.
 #texinfo_show_urls = 'footnote'
 
+html_search_language = 'ja'
+html_search_options = {'type':'default'}
+
+# 置換リストの挿入
+rst_prolog=u"""
+.. include:: /definition.txt
+"""

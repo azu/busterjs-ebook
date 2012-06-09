@@ -3,7 +3,7 @@ Buster.JSのインストール
 =======================
 
 Mac OS X/Linux
-===============
+=================
 
 MacとLinuxでは Node_ のパッケージマネージャー npm を使ってインストールできます。
 
@@ -27,7 +27,7 @@ VirtualBoxを使ってBuster.JSをインストールする。
 この方法ならWindowsであっても同様の環境を構築できる
 
 `try-busterjs <https://github.com/mroderick/try-busterjs>`_
-----------
+------------------------------------------------------------
 
 `VirtualBox <https://www.virtualbox.org/>`_ を使うためホストOSに関係なく、
 同じ方法を使ってVirtualBox上で動くBuster.JS環境を構築できます。
@@ -99,6 +99,6 @@ SSH接続ができたら、後は通常のLinuxでのBuster.JS環境と同様に
 ホストOS:Windows、ゲストOS:Ubuntuとして、`VBoxHeadlessTray <http://www.toptensoftware.com/VBoxHeadlessTray/>`_ などを利用して、
 ヘッドレスでVM上にLinuxを動作させて、SSH接続して利用すれば、普通の利用の範囲なら速度やメモリ消費量的にも問題無い程度で動作させることができると思われます。
 
-.. try-busterjs: https://github.com/mroderick/try-busterjs
+.. `try-busterjs`_: https://github.com/mroderick/try-busterjs
 .. [#sshclient] `Get Started With Vagrant On Windows — zamboni 0.8 documentation <http://mozilla.github.com/zamboni/topics/install-zamboni/vagrant-on-windows.html>`_
 .. [#ssh] `WindowsからVM上のLinuxをSSH経由で利用する開発環境の構築 | Web scratch <http://efcl.info/2011/0420/res2588/>`_
