@@ -10,8 +10,8 @@ Buster.JSではコンフィグファイルを作成し、そこへテストで�
 
 デフォルトでは ``buster.js`` というファイル名のjsファイルがコンフィグファイルとして利用されます。
 
-以下のような ``Buster-Project`` というディレクトリ直下に ``buster.js`` ファイルが有る場合はそれが利用され、
-spec または test ディレクトリに ``buster.js`` ファイルが置かれている場合はそちらが利用されます。
+以下のような ``Buster-Project`` というディレクトリ直下に buster.js ファイルが有る場合はそれが利用され、
+spec または test ディレクトリに buster.js ファイルが置かれている場合はそちらが利用されます。
 
 ::
 
@@ -97,15 +97,15 @@ testディレクトリ以下には ``simple-node-test.js`` しか無いので、
         // テストの中身
     }
 
-Buster.JSのアサーション関数の多く [#assertion]_ は ``assert/refute`` 以下になっています。
+Buster.JSのアサーション関数の多く [#assertion]_ は assert/refute 以下になっています。
 
-``assert`` と ``refure`` は対になる関係で、
+assert と refure は対になる関係で、
 assertは ``assert(true);`` ならテストがパスされ、
 refuteは ``refute(false);`` ならテストがパスされます。
 
 .. important::  **assert <-> refute**
 
-``assert/refute`` はそれぞれ同様のメソッド(equalsやsame等)を持っているので、
+assert/refute はそれぞれ同様のメソッド(equalsやsame等)を持っているので、
 この２つのアサーション関数を利用してテストを書いていくことになります。
 
 .. _`azu/busterjs-kumite`: https://github.com/azu/busterjs-kumite
