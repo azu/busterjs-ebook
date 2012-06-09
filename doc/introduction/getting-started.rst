@@ -97,7 +97,7 @@ testディレクトリ以下には ``simple-node-test.js`` しか無いので、
         // テストの中身
     }
 
-Buster.JSのアサーション関数の多く [#assertion]_ は assert/refute 以下になっています。
+Buster.JSのアサーション関数の多く [#assertion]_ は assert/refute メソッドからなっています。
 
 assert と refure は対になる関係で、
 assertは ``assert(true);`` ならテストがパスされ、
