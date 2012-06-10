@@ -1,3 +1,4 @@
-.. |key| replace:: /BusterJS-Kumite/
+.. |Buster.JS| replace:: :term:`Buster.JS`
+.. |buster.js| replace:: :term:`buster.js(設定ファイル)`
 
 

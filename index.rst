@@ -9,7 +9,8 @@ Contents:
 	doc/introduction/installation
 	doc/introduction/getting-started
 	doc/column/TravisCI
-    
+	doc/contribution/index
+
 
 Indices and tables
 ==================

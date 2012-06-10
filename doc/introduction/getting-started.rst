@@ -8,10 +8,10 @@
 Buster.JSではコンフィグファイルを作成し、そこへテストで使用するソースファイルやテストファイルの読み込みの定義や
 ブラウザ、Node環境どちらで実行するテストなのかなどを指定する必要があります。
 
-デフォルトでは ``buster.js`` というファイル名のjsファイルがコンフィグファイルとして利用されます。
+デフォルトでは ``buster.js`` というファイル名のjsファイルが設定ファイルとして利用されます。
 
-以下のような ``Buster-Project`` というディレクトリ直下に buster.js ファイルが有る場合はそれが利用され、
-spec または test ディレクトリに buster.js ファイルが置かれている場合はそちらが利用されます。
+以下のような ``Buster-Project`` というディレクトリ直下に  |buster.js| が有る場合はそれが利用され、
+spec または test ディレクトリに  |buster.js|  が置かれている場合はそちらが利用されます。
 
 ::
 
@@ -60,7 +60,7 @@ spec または test ディレクトリに buster.js ファイルが置かれて�
     My Test Case: ....
     1 test case, 4 tests, 4 assertions, 0 failures, 0 errors, 0 timeouts
 
-``getting-started/`` ディレクトリ直下には ``buster.js`` 設定ファイルが置かれているので、
+``getting-started/`` ディレクトリ直下には |buster.js| が置かれているので、
 今回は ``--config`` オプションで設定ファイルのパスを指定しなくても自動で読み込まれます。
 
 ::
@@ -70,14 +70,14 @@ spec または test ディレクトリに buster.js ファイルが置かれて�
     └── ./test
         └── ./test/simple-node-test.js
 
-``buster test`` によりテストが実行が確認出来たので、 ``buster.js`` 設定ファイルの中身を見ていきます。
+``buster test`` によりテストが実行が確認出来たので、 |buster.js| の中身を見ていきます。
 
 :file: /busterjs-kumite/getting-started/buster.js
 .. literalinclude:: /busterjs-kumite/getting-started/buster.js
   :language: js
 
 BusterJSでは `JsTestDriver <http://code.google.com/p/js-test-driver/>`_ の ``jsTestDriver.conf`` のように
-設定ファイルを読み込んでテストを実行しますが、 ``buster.js`` は名前の通り設定ファイルもJavaScriptファイルで定義されます。
+設定ファイルを読み込んでテストを実行しますが、 |buster.js| は名前の通りテスト設定もJavaScriptファイルで定義されます。
 
 今回の設定ではnode環境で、testディレクトリにある ``*-test.js`` にマッチするテストファイルを読み込んで実行するという定義がされています。
 testディレクトリ以下には ``simple-node-test.js`` しか無いので、そこに書かれているテストが実行されます。

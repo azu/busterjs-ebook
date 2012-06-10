@@ -1,5 +1,5 @@
 =======================
-Buster.JSのインストール
+ |Buster.JS| のインストール
 =======================
 
 Mac OS X/Linux
@@ -23,14 +23,14 @@ Windows
 VMにインストール
 ==================
 
-VirtualBoxを使ってBuster.JSをインストールする。
+VirtualBoxを使って |Buster.JS| をインストールする。
 この方法ならWindowsであっても同様の環境を構築できる
 
 `try-busterjs <https://github.com/mroderick/try-busterjs>`_
 ------------------------------------------------------------
 
 `VirtualBox <https://www.virtualbox.org/>`_ を使うためホストOSに関係なく、
-同じ方法を使ってVirtualBox上で動くBuster.JS環境を構築できます。
+同じ方法を使ってVirtualBox上で動く |Buster.JS| 環境を構築できます。
 あくまで、用意されたお試しの環境をVirtualBoxに作るものなので、ちゃんとやりたい場合は
 自分で同じように作ったほうがいいかもしれません。
 
@@ -59,7 +59,7 @@ Ruby + VirtualBox + Vagrant が揃ったら、まずはvagrantで利用できる
     $ vagrant up
 
 `vagrant up` するとVirtualBox上でUbuntuが立ち上がるので、
-このゲストOSに対してSSHで接続してBuster.JSを動かす事ができます。
+このゲストOSに対してSSHで接続して |Buster.JS| を動かす事ができます。
 
 MacやLinuxではsshがコマンドラインから利用できるので、 ``vagrant ssh`` を行うだけでSSH接続できますが、
 Windowsでは別途 `PuTTY <http://www.chiark.greenend.org.uk/~sgtatham/putty/>`_ や `RLogin <http://nanno.dip.jp/softlib/man/rlogin/>`_ といったSSHクライアントとして
@@ -85,7 +85,7 @@ SSHクライアントでの接続方法は ``vagrant ssh`` を行うと表示さ
 
 .. image:: /_static/2012-05-31-ss1.png
 
-SSH接続ができたら、後は通常のLinuxでのBuster.JS環境と同様になります
+SSH接続ができたら、後は通常のLinuxでの |Buster.JS| 環境と同様になります
 ``buster`` コマンドがインストールされているかを確認して、もしインストールされてないならnpmでインストールしておきます。
 
 .. code-block:: bash
@@ -93,7 +93,7 @@ SSH接続ができたら、後は通常のLinuxでのBuster.JS環境と同様に
     $ sudo npm install -g buster
     # パスワードは vagrant
 
-これで、 `try-busterjs`_ を使ってVirtualbox上にBuster.JS環境を構築できましたが、
+これで、 `try-busterjs`_ を使ってVirtualbox上に |Buster.JS| 環境を構築できましたが、
 もっと詳細に設定等をしたい場合はSSHで利用するLinux on VM [#ssh]_ などを作成するのがよいと思われます。
 
 ホストOS:Windows、ゲストOS:Ubuntuとして、`VBoxHeadlessTray <http://www.toptensoftware.com/VBoxHeadlessTray/>`_ などを利用して、
