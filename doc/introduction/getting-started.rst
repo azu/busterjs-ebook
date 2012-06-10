@@ -107,7 +107,6 @@ refuteは ``refute(false);`` ならテストがパスされます。
 
     blockdiag assertions {
     	assert <-> refute;
-    	日本語 <-> 英語;
     	
     }
 
