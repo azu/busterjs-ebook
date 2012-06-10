@@ -18,6 +18,7 @@ Buster.JSではブラウザをキャプチャページにアクセスさせれ�
 実際に `Travis CI`_ で動くサンプルプロジェクトを作ってみましょう。
 
 * .. image:: https://secure.travis-ci.org/azu/BusterJS_TravisCI.png?branch=master
+	:target: http://travis-ci.org/azu/BusterJS_TravisCI
 *  `azu/BusterJS-TravisCI`_
 
 npm package.json
@@ -124,6 +125,7 @@ Githubで公開してるJavaScriptプロジェクトのCIが簡単に行うこ�
 サンプルプロジェクト
 
 * .. image:: https://secure.travis-ci.org/azu/BusterJS_TravisCI.png?branch=master
+	:target: http://travis-ci.org/azu/BusterJS_TravisCI
 *  `azu/BusterJS-TravisCI`_
 
 `Travis CI`_ ではビルドステータスの画像を取得するURLもあるので、Githubにreadmeなどに貼り付けておくと分かりやすい。
