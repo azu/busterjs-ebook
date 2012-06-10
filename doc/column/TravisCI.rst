@@ -75,6 +75,7 @@ Buster.JSのテストが走ることが確認できます。
 ================
 
 ``.travis.yml`` では `Travis CI`_ がテストを実行する前に行うことや通知の設定や実行するテストコマンドなどを指定できます。
+
 .. code-block:: yaml
 
     before_script:
