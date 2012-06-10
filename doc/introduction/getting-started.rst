@@ -3,7 +3,7 @@
 ==================================
 
 設定ファイル-buster.js
-=====================
+==================================
 
 Buster.JSではコンフィグファイルを作成し、そこへテストで使用するソースファイルやテストファイルの読み込みの定義や
 ブラウザ、Node環境どちらで実行するテストなのかなどを指定する必要があります。
@@ -103,10 +103,20 @@ assert と refure は対になる関係で、
 assertは ``assert(true);`` ならテストがパスされ、
 refuteは ``refute(false);`` ならテストがパスされます。
 
-.. important::  **assert <-> refute**
+.. important::
+
+    **assert <-> refute**
+
+.. blockdiag::
+
+    blockdiag assertions {
+    	assert <-> refute;
+    	日本語 -> 英語;
+    }
 
 assert/refute はそれぞれ同様のメソッド(equalsやsame等)を持っているので、
 この２つのアサーション関数を利用してテストを書いていくことになります。
 
-.. _`azu/busterjs-kumite`: https://github.com/azu/busterjs-kumite
+
 .. [#assertion] BDDのシンタックスやモック関連等では異なる事がある
+.. _`azu/busterjs-kumite`: https://github.com/azu/busterjs-kumite

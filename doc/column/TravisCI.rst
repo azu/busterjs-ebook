@@ -70,7 +70,8 @@ Buster.JSのテストが走ることが確認できます。
 
 * `Specifics of npm's package.json <http://npmjs.org/doc/json.html>`_
 
-.travis.yml
+.. "."で始まるとディレクティブと誤認されるためエスケープ
+\.travis.yml
 ================
 
 ``.travis.yml`` では `Travis CI`_ がテストを実行する前に行うことや通知の設定や実行するテストコマンドなどを指定できます。
