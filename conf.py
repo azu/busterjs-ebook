@@ -31,7 +31,7 @@ extensions = ['sphinx.ext.todo','sphinxcontrib.blockdiag']
 todo_include_todos=True
 # blockdiag http://blockdiag.com/ja/blockdiag/sphinxcontrib.html
 blockdiag_antialias=True
-blockdiag_fontpath="./resources/ipaexg.ttf"
+blockdiag_fontpath="resources/ipaexg.ttf"
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 

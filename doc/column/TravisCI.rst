@@ -26,12 +26,12 @@ npm package.json
 まず、Travis CI にはBuster.JSは入ってないので、テストを走らせる前にそれらをTravis CIにインストールさせるようにします。
 
 Buster.JSはnpmで配布されているので、テストの依存関係の設定をnpmの `package.json <http://npmjs.org/doc/json.html>`_ にまとめて置くと、
-``npm install`` するだけで準備が出来るので、 `package.json <http://npmjs.org/doc/json.html>`_ を書いていきます。
+``npm install`` するだけで準備が出来るので、package.jsonを書いていきます。
 
 また、 package.jsonを作っておくと、githubを見た人も ``npm install``  でテスト環境を作れるようになるので、
 このように設定をまとめておくのは有用だと思います。
 
-実際に `azu/BusterJS-TravisCI`_ に書かれている `package.json <https://github.com/azu/BusterJS_TravisCI/blob/master/package.json>`_ を見てみます。
+実際に `azu/BusterJS-TravisCI`_ に書かれている `BusterJS_TravisCI/package.json <https://github.com/azu/BusterJS_TravisCI/blob/master/package.json>`_ を見てみます。
 
 .. code-block:: json
 
@@ -75,8 +75,7 @@ Buster.JSのテストが走ることが確認できます。
 ================
 
 ``.travis.yml`` では `Travis CI`_ がテストを実行する前に行うことや通知の設定や実行するテストコマンドなどを指定できます。
-
-.. code-block:: yml
+.. code-block:: yaml
 
     before_script:
       - export DISPLAY=:99.0
@@ -96,6 +95,7 @@ Buster.JSのテストが走ることが確認できます。
     
     node_js:
       - 0.6
+
 
 テストの実行環境はnodeを使うため、languageにnode_jsとし、node_jsのバージョンも指定します。
 scriptではテスト実行時に行うコマンドを指定できるので ``npm test`` とします。(無指定でもこれが使われる)
