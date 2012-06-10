@@ -103,15 +103,12 @@ assert と refure は対になる関係で、
 assertは ``assert(true);`` ならテストがパスされ、
 refuteは ``refute(false);`` ならテストがパスされます。
 
-.. important::
-
-    **assert <-> refute**
-
 .. blockdiag::
 
     blockdiag assertions {
     	assert <-> refute;
-    	日本語 -> 英語;
+    	日本語 <-> 英語;
+    	
     }
 
 assert/refute はそれぞれ同様のメソッド(equalsやsame等)を持っているので、

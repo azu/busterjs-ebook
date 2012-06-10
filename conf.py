@@ -28,10 +28,12 @@ import sys, os
 extensions = ['sphinx.ext.todo','sphinxcontrib.blockdiag']
 
 [extensions]
+# Additional font path
+additional_fontpath = os.path.abspath(os.path.join(os.path.split(__file__)[0], os.pardir, 'resources'))
 todo_include_todos=True
 # blockdiag http://blockdiag.com/ja/blockdiag/sphinxcontrib.html
 blockdiag_antialias=True
-blockdiag_fontpath="resources/ipaexg.ttf"
+blockdiag_fontpath="%(additional_fontpath)s/ipaexg.ttf" % locals()
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
