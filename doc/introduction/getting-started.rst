@@ -103,12 +103,7 @@ assert と refure は対になる関係で、
 assertは ``assert(true);`` ならテストがパスされ、
 refuteは ``refute(false);`` ならテストがパスされます。
 
-.. blockdiag::
-
-    blockdiag assertions {
-    	assert <-> refute;
-    	
-    }
+.. important:: ``assert <-> refute``
 
 assert/refute はそれぞれ同様のメソッド(equalsやsame等)を持っているので、
 この２つのアサーション関数を利用してテストを書いていくことになります。
