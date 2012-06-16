@@ -5,10 +5,9 @@ Contributionするには
 このドキュメントは自由にfixのプルリクエストや提案を受け入れます。
 
 .. toctree::
-	:maxdepth: 2
-	
-	style-guide
-
+  :maxdepth: 2
+  
+  style-guide
 
 
 	

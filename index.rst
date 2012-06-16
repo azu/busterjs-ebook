@@ -4,12 +4,13 @@ The little book of Buster.JS
 Contents:
 
 .. toctree::
-	:maxdepth: 2
-   
-	doc/introduction/installation
-	doc/introduction/getting-started
-	doc/column/TravisCI
-	doc/contribution/index
+  :maxdepth: 2
+  
+  doc/introduction/installation
+  doc/introduction/getting-started
+  doc/config/patterns
+  doc/column/TravisCI
+  doc/contribution/index
 
 
 Indices and tables
@@ -19,3 +20,4 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+b
