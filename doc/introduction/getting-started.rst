@@ -45,6 +45,16 @@ spec または test ディレクトリに  |buster.js|  が置かれている場
      
      `busterjs-kumite/getting-started at master · azu/busterjs-kumite · GitHub <https://github.com/azu/busterjs-kumite/tree/master/getting-started>`_
         ``cd `git rev-parse --show-toplevel`/getting-started``
+     `codestre.am: streaming your code to the masses <http://codestre.am/196c085c399b3f25cdbfa97f0>`_
+     		サンプルを実際に動かしてるコンソール動画
+
+.. raw:: html
+
+	<iframe frameborder="0" allowfullscreen width="660" height="400" src="http://play.codestre.am/embed/ac9febf80d18705f5ac147655"></iframe>
+
+.. note:: 
+
+	上記の動画は `codestre.am <http://codestre.am/>`_ で録画したのでコピペもできます。
 
 今回の動かすサンプルは ``getting-started/`` ディレクトリにあります。
 まずは動かしてみましょう。
