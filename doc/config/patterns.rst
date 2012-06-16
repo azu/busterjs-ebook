@@ -33,8 +33,8 @@ Buster.JSでは一つの |buster.js| に複数の設定ファイルを書くこ�
 
 ``env : "node"`` と設定されているNode環境向けのテストを見ていきます。
 
-テストを実行するには ``config-patterns`` ディレクトリにいる状態で
- ``buster test`` の ``-e/--environment`` オプションをnodeに指定して実行します。
+テストを実行するには ``config-patterns`` ディレクトリにいる状態で、
+``buster test`` の ``-e/--environment`` オプションをnodeに指定して実行します。
 
 .. code-block:: bash
   
@@ -103,7 +103,7 @@ Node環境とは違い、最初に手動で ``var buster = require("buster");`` 
 Buster.JSではassert.tagNameのようにDOMに関するassertionメソッドも用意されています。
 
 ハイブリッドなテスト
-===================
+======================================
 
 最後にどちらの :ref:`config<config-patterns-config-label>` でも読み込まれている、 ``hybrid-test.js`` について見ていきます。
 
