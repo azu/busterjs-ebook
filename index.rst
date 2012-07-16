@@ -10,6 +10,7 @@ Contents:
   doc/introduction/getting-started
   doc/config/patterns
   doc/example/strftime
+  doc/console/reporters
   doc/column/TravisCI
   doc/contribution/index
 
