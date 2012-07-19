@@ -72,6 +72,7 @@ Buster.JSのテストが走ることが確認できます。
 * `Specifics of npm's package.json <http://npmjs.org/doc/json.html>`_
 
 .. "."で始まるとディレクティブと誤認されるためエスケープ
+
 \.travis.yml
 ================
 

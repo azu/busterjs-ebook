@@ -11,6 +11,7 @@ Contents:
   doc/config/patterns
   doc/example/strftime
   doc/console/reporters
+  doc/devlop/editor
   doc/column/TravisCI
   doc/contribution/index
 

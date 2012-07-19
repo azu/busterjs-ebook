@@ -82,7 +82,8 @@ spec または test ディレクトリに  |buster.js|  が置かれている場
 
 ``buster test`` によりテストが実行が確認出来たので、 |buster.js| の中身を見ていきます。
 
-:file: /busterjs-kumite/getting-started/buster.js
+:file:`/busterjs-kumite/getting-started/buster.js`
+
 .. literalinclude:: /busterjs-kumite/getting-started/buster.js
   :language: js
 
@@ -92,7 +93,8 @@ BusterJSでは `JsTestDriver <http://code.google.com/p/js-test-driver/>`_ の ``
 今回の設定ではnode環境で、testディレクトリにある ``*-test.js`` にマッチするテストファイルを読み込んで実行するという定義がされています。
 testディレクトリ以下には ``simple-node-test.js`` しか無いので、そこに書かれているテストが実行されます。
 
-:file: /busterjs-kumite/getting-started/test/simple-node-test.js
+:file:`/busterjs-kumite/getting-started/test/simple-node-test.js`
+
 .. literalinclude:: /busterjs-kumite/getting-started/test/simple-node-test.js
   :language: js
   :linenos:
@@ -119,5 +121,5 @@ assert/refute はそれぞれ同様のメソッド(equalsやsame等)を持って
 この２つのアサーション関数を利用してテストを書いていくことになります。
 
 
-.. [#assertion] BDDのシンタックスやモック関連等では異なる事がある
+.. [#assertion] BDD形式やモック関連等では異なる事がある
 .. _`azu/busterjs-kumite`: https://github.com/azu/busterjs-kumite

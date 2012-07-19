@@ -1,6 +1,6 @@
-=======================
- |Buster.JS| のインストール
-=======================
+==============================================
+Buster.JS のインストール
+==============================================
 
 Mac OS X/Linux
 =================
@@ -16,9 +16,8 @@ MacとLinuxでは Node_ のパッケージマネージャー npm を使ってイ
 Windows
 ============
 
-.. todo::
-
-    Windowsはまだ未サポート
+.. todo:: Windowsはまだ未サポート
+.. todo:: buster-test等一部のみ
 
 VMにインストール
 ==================
@@ -98,6 +97,7 @@ SSH接続ができたら、後は通常のLinuxでの |Buster.JS| 環境と同�
 
 ホストOS:Windows、ゲストOS:Ubuntuとして、`VBoxHeadlessTray <http://www.toptensoftware.com/VBoxHeadlessTray/>`_ などを利用して、
 ヘッドレスでVM上にLinuxを動作させて、SSH接続して利用すれば、普通の利用の範囲なら速度やメモリ消費量的にも問題無い程度で動作させることができると思われます。
+
 
 .. `try-busterjs`_: https://github.com/mroderick/try-busterjs
 .. [#sshclient] `Get Started With Vagrant On Windows — zamboni 0.8 documentation <http://mozilla.github.com/zamboni/topics/install-zamboni/vagrant-on-windows.html>`_
