@@ -133,6 +133,11 @@ Githubで公開してるJavaScriptプロジェクトのCIが簡単に行うこ�
 
 .. image:: /_static/TravisCI_status.png
 
+また、このドキュメントで使用されているコードも同様にBuster.JSとTravisCIを使いテストされています
+
+* .. image:: https://secure.travis-ci.org/azu/busterjs-kumite.png?branch=master
+    :target: http://travis-ci.org/azu/busterjs-kumite
+* `azu/busterjs-kumite <https://github.com/azu/BusterJS-Kumite>`_
 
 .. _`Travis CI`: http://travis-ci.org/
 .. _`azu/BusterJS-TravisCI`: https://github.com/azu/BusterJS_TravisCI
