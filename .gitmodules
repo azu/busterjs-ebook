@@ -3,4 +3,4 @@
 	url = https://github.com/azu/busterjs-kumite.git
 [submodule "_themes/sphinx-theme-okfn"]
 	path = _themes/sphinx-theme-okfn
-	url = git://github.com/azu/sphinx-theme-okfn.git
+	url = https://github.com/azu/sphinx-theme-okfn.git
