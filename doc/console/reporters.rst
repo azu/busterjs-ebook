@@ -64,7 +64,9 @@ reporter機能は自分で作成したものを利用する事ができます。
         ✔ 2 TEST TWO
       ✔ 3 TEST ONE
 
-これを、myReporterを使ったテスト結果を実行するには、 ``-r/--reporter`` オプションでmyReporterと指定する必要がありますが、
+.. image:: /_static/my-reporter.png
+
+これのように、自作のmyReporterを使ったテスト結果を実行するには、 ``-r/--reporter`` オプションでmyReporterと指定する必要がありますが、
 適当な場所に作っただけではnodeの ``require()`` からは読み込めないため、 ``NODE_PATH`` に myReporter.jsがあるディレクトリを追加して、
 ``require("myReporter")`` で読み込めるような状態で ``buster test -r myReporter`` して実行します。
 
@@ -85,5 +87,42 @@ custom reporterの書き方の詳細はドキュメントや既存のreporterが
 * `Test reporters`_
 * `buster.testRunner <http://busterjs.org/docs/test/runner/>`_
 * `buster-test/lib/buster-test/reporters at master · busterjs/buster-test · GitHub <https://github.com/busterjs/buster-test/tree/master/lib/buster-test/reporters>`_
+
+
+reporterに色を付ける
+===============================
+
+既存はspecification等のreporterには色が付けて出力されますが、
+このようなターミナル上の色を付けるのには `buster-terminal <https://github.com/busterjs/buster-terminal>`_ が利用できます。
+
+.. image:: /_static/reporter-taps.png
+
+taps reporterを参考に見ていくと、最初に ``var terminal = require("buster-terminal");`` というように
+``buster-terminal`` モジュールを読み込んでいます。
+
+:file:`/busterjs-kumite/reporters/reporter/taps.js`
+
+.. literalinclude:: /busterjs-kumite/reporters/reporter/taps.js
+  :language: js
+  :lines: 1-15
+
+このように、読み込むにはbuster-terminalモジュールへのパスが通ってないといけないので、
+package.jsのdependenciesにモジュールを追加して置くのが楽でいいです。
+
+相対パスしていでも読み込めるので該当するパスにファイルを置く方法でもできなくはないです。
+
+.. code-block:: js
+
+    "dependencies": {
+        "buster-core": ">=0.6.2",
+        "buster-terminal": ">=0.4.1",
+    }
+
+使い方として、reporterのcreateで ``terminal.create(opt);``して返って来たインスタンスを使います。
+
+`buster-terminal/lib/buster-terminal.js at master · busterjs/buster-terminal · GitHub <https://github.com/busterjs/buster-terminal/blob/master/lib/buster-terminal.js>`_ を見ると、
+``term["green"]("色をつけたい文字列")`` などのようにANSIカラーをつけたり、文字の一度調整等ができる関数が入ってるようです。
+
+このように、Buster.JSのrepoterはJavaScriptで比較的簡単にいじれるので、オレオレreporterを作って見るのもいいかもしれません。
 
 .. _`Test reporters` http://busterjs.org/docs/test/reporters/
