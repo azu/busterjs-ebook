@@ -1,6 +1,9 @@
 The little book of Buster.JS
 ================================
 
+Buster.JSについての小さな電子書籍
+
+
 Contents:
 
 .. toctree::

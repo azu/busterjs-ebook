@@ -4,6 +4,7 @@ Test reporters
 
 Buster.js のテスト結果を出力する方法を決めるreportersという機能がある
 
+
 reportersの種類
 ========================
 

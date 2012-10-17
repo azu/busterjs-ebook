@@ -105,12 +105,13 @@ html_theme_options = {
     'logo_icon': 'http://busterjs.readthedocs.org/en/latest/_static/buster-logo.png'
 }
 # reload option
-#import os
-#on_rtd = os.environ.get('READTHEDOCS', None) == 'True' # Trueならreadthedocs
-#if on_rtd:
-#    html_theme_options["auto_reload"] = False
-#else:
-#    html_theme_options["auto_reload"] = True
+# Trueならreadthedocs
+import os
+on_rtd = os.environ.get('READTHEDOCS', None) == 'True'
+if on_rtd:
+    html_theme_options["auto_reload"] = False
+else:
+    html_theme_options["auto_reload"] = True
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
