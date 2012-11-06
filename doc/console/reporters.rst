@@ -127,3 +127,7 @@ package.jsのdependenciesにモジュールを追加して置くのが楽でい�
 このように、Buster.JSのrepoterはJavaScriptで比較的簡単にいじれるので、オレオレreporterを作って見るのもいいかもしれません。
 
 .. _`Test reporters` http://busterjs.org/docs/test/reporters/
+
+.. 
+	Event: "test:failure", function (error) {}
+	でのスタックトレースは `busterjs/stack-filter <https://github.com/busterjs/stack-filter>`_ によりフィルターされて出力されている。
