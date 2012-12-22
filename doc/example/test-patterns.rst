@@ -43,6 +43,8 @@ Buster.JSでは一つのtestCase内にコンテキストを複数持つことが
 
 また、 :doc:`/doc/console/reporters` によってはコンテキストを認識して見やすい形で出力してくれる場合もあります。
 
+.. _deferred_tests:
+
 // Deferred tests
 ===============================
 
@@ -64,6 +66,8 @@ Deferred testsとはDeferredを使ったテストという意味ではなくて�
 そのコンテキストに存在するsetUp/tearDownは実行されないようになっています。
 
 そのため、上記の例では ``buster.log("doesn't call");`` は呼ばれない事になります。
+
+.. _async_tests:
 
 非同期テスト
 ===============================
