@@ -47,7 +47,7 @@ Buster.JSでは一つの |buster.js| に複数の設定ファイルを書くこ�
   2 test cases, 2 tests, 2 assertions, 0 failures, 0 errors, 0 timeouts
 
 ``-e/--environment`` オプションを指定すると、 |buster.js| で envが該当してるコンフィグのテストを実施します。
-つまりこの場合は、　``-e node`` と指定したので :ref:`config["node tests"]<config-patterns-config-label>` のテストが実行されます。
+つまりこの場合は、 ``-e node`` と指定したので :ref:`config["node tests"]<config-patterns-config-label>` のテストが実行されます。
 
 hybrid-test.js はとりあえず置いておいて、以下のテストファイルが読みこまれて実行されます。
 
