@@ -7,9 +7,9 @@ Buster.JSのエディタ対応について
 WebStorm
 ==================
 
-WebStorm では自分が公開してる、Buster.JSについてのJSDocファイルを利用できます。
+WebStorm では自分が公開してるBuster.JSについてのJSDocファイルを利用できます。
 
-Webstormの　:menuselection:`Settings --> JavaScript --> Libraries` に下記のjsファイルを追加する事で、
+WebStormの :menuselection:`Settings --> JavaScript --> Libraries` に下記のjsファイルを追加する事で、
 BusterJSのメソッドを補完候補に加えたり、IDE上から簡単なドキュメント(Quick Lookup)を参照できます。
 
 * `azu/BusterJSDoc <https://github.com/azu/BusterJSDoc>`_
