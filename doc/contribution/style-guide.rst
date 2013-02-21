@@ -59,5 +59,29 @@
 		var code = "サンプルコード";
 
 
+Buster.JS ドキュメントへのリンクについて
+===========================================
+
+`Buster.JS <http://docs.busterjs.org/en/latest/>`_  のドキュメントに対してリンクを張る場合、
+intersphinx が利用できる場合(ラベルが設定してある)は
+
+::
+
+    :ref:`buster:buster-test-reporters`
+
+のように、 refを使ったリンクにすることを推奨します。
+Buster.JSのドキュメントのdomainには ``buster`` を割り当ててあるので、
+
+::
+
+     :ref:`buster:ラベル名`
+
+という感じで、Buster.JSのドキュメントに対して参照を貼ることができます。
+
+* `sphinx.ext.intersphinx – 他のプロジェクトのドキュメントへのリンク — Sphinx 1.1 (hg) documentation <http://sphinx-users.jp/doc11/ext/intersphinx.html#sphinx.ext.intersphinx>`_
+* `2012/12/08 intersphinxを使おう - #sphinxjp アドベントカレンダー2012 - 清水川Web <http://www.freia.jp/taka/blog/how-to-use-intersphinx/index.html#id2>`_
+
+ラベルが見つからない場合は、無理してやるよりかは通常のURLリンクで問題ありません。
+
 .. _`Buster.JS`: http://busterjs.org/
 .. _`azu/busterjs-kumite`: https://github.com/azu/busterjs-kumite
