@@ -173,4 +173,4 @@ Sinon.JSを読みこまなくても ``this.spy,this.mock,this.sandbox`` など�
 
 このように、Buster.JSとSinon.JSでは作者が同じ事もあって、Sinon.JSを使ったテストが多少楽に出来るようになっています。
 
-.. _`Sinon.JS` http://sinonjs.org/
+.. _`Sinon.JS`: http://sinonjs.org/

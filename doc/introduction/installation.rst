@@ -5,13 +5,13 @@ Buster.JS のインストール
 Mac OS X/Linux
 =================
 
-MacとLinuxでは Node_ のパッケージマネージャー npm を使ってインストールできます。
+MacとLinuxでは `Node`_ のパッケージマネージャー npm を使ってインストールできます。
 
 .. code-block:: bash
 
     $ npm install -g buster
 
-.. _Node: http://nodejs.org/
+.. _`Node`: http://nodejs.org/
 
 Windows
 ============
@@ -37,7 +37,7 @@ VirtualBoxを使って |Buster.JS| をインストールする。
     今回はホストOSがWindowsを例にする
 
 
-まずは、`VirtualBox <https://www.virtualbox.org/wiki/Downloads>`_ と `Vagrant - Downloads <http://downloads.vagrantup.com/>`_ から
+まずは、`VirtualBox - Download <https://www.virtualbox.org/wiki/Downloads>`_ と `Vagrant - Downloads <http://downloads.vagrantup.com/>`_ から
 それぞれのインストーラーをダウンロードしてインストールします。
 
 ``Vagrant`` は任意のディレクトリにインストールし、コマンドラインから利用するためにPATHを通す必要があります。

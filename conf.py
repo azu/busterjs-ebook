@@ -25,7 +25,7 @@ import sys, os
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.todo']
+extensions = ['sphinx.ext.todo', 'sphinx.ext.intersphinx']
 
 [extensions]
 # Additional font path
@@ -34,6 +34,12 @@ todo_include_todos=True
 # blockdiag_antialias=True
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
+# intersphinx
+
+intersphinx_mapping = {
+  'buster': ('http://docs.busterjs.org/en/latest/', None)
+}
 
 # The suffix of source filenames.
 source_suffix = '.rst'

@@ -10,8 +10,8 @@ reportersの種類
 
 現在利用できるreportersの種類は下記に書かれているものと、独自に定義したreporterを利用できます。
 
-* `Test reporters`_
-* `buster-test/lib/buster-test/reporters at master · busterjs/buster-test · GitHub <https://github.com/busterjs/buster-test/tree/master/lib/buster-test/reporters>`_
+* :ref:`buster:buster-test-reporters`
+* `buster-test/lib/reporters at master · busterjs/buster-test · GitHub <https://github.com/busterjs/buster-test/tree/master/lib/reporters>`_
 
 デフォルトでは、 ``dots`` が使用され、``buster-test`` の ``-r/--reporter`` オプションで指定することができます。
 ``-r/--reporter`` オプションの詳細は、コマンドライン上で下記のようにして見ることができます。
@@ -85,9 +85,9 @@ Buster.JSの仕組み的に、 `buster-test / reporters.js <https://github.com/b
 
 custom reporterの書き方の詳細はドキュメントや既存のreporterが参考になります。
 
-* `Test reporters`_
-* `buster.testRunner <http://busterjs.org/docs/test/runner/>`_
-* `buster-test/lib/buster-test/reporters at master · busterjs/buster-test · GitHub <https://github.com/busterjs/buster-test/tree/master/lib/buster-test/reporters>`_
+* :ref:`buster:buster-test-reporters`
+* :ref:`buster:buster-test-runner`
+* `buster-test/lib/reporters at master · busterjs/buster-test · GitHub <https://github.com/busterjs/buster-test/tree/master/lib/reporters>`_
 
 
 reporterに色を付ける
@@ -121,13 +121,15 @@ package.jsのdependenciesにモジュールを追加して置くのが楽でい�
 
 使い方として、reporterのcreateで ``terminal.create(opt);``して返って来たインスタンスを使います。
 
-`buster-terminal/lib/buster-terminal.js at master · busterjs/buster-terminal · GitHub <https://github.com/busterjs/buster-terminal/blob/master/lib/buster-terminal.js>`_ を見ると、
-``term["green"]("色をつけたい文字列")`` などのようにANSIカラーをつけたり、文字の一度調整等ができる関数が入ってるようです。
+`buster-terminal/lib/buster-terminal.js <https://github.com/busterjs/buster-terminal/blob/master/lib/buster-terminal.js>`_ を
+見ると、 ::
 
-このように、Buster.JSのrepoterはJavaScriptで比較的簡単にいじれるので、オレオレreporterを作って見るのもいいかもしれません。
+    term["green"]("色をつけたい文字列")
 
-.. _`Test reporters` http://busterjs.org/docs/test/reporters/
+などのようにANSIカラーをつけたり、文字の一度調整等ができる関数が入ってるようです。
 
-.. 
+このように、Buster.JSのreporterはJavaScriptで比較的簡単にいじれるので、オレオレreporterを作って見るのもいいかもしれません。
+
+..
 	Event: "test:failure", function (error) {}
 	でのスタックトレースは `busterjs/stack-filter <https://github.com/busterjs/stack-filter>`_ によりフィルターされて出力されている。
