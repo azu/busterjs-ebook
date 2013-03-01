@@ -119,7 +119,7 @@ package.jsのdependenciesにモジュールを追加して置くのが楽でい�
         "buster-terminal": ">=0.4.1",
     }
 
-使い方として、reporterのcreateで ``terminal.create(opt);``して返って来たインスタンスを使います。
+使い方として、reporterのcreateで ``terminal.create(opt);`` して返って来たインスタンスを使います。
 
 `buster-terminal/lib/buster-terminal.js <https://github.com/busterjs/buster-terminal/blob/master/lib/buster-terminal.js>`_ を
 見ると、 ::

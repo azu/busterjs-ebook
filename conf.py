@@ -270,6 +270,10 @@ texinfo_documents = [
 html_search_language = 'ja'
 html_search_options = {'type':'default'}
 
+
+# LaTeX の docclass 設定
+latex_docclass = {'manual': 'jsbook'}
+
 # 置換リストの挿入
 rst_prolog=u"""
 .. include:: /definition.txt
