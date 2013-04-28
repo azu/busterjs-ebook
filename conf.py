@@ -106,9 +106,9 @@ sys.path.append(os.path.abspath('_themes'))
 html_theme_path = ['_themes']
 html_theme = 'sphinx-theme-okfn'
 html_theme_options = {
-		'show_okfn_logo': False,
-		'git_repo': 'https://github.com/azu/busterjs-ebook',
-    'logo_icon': 'http://busterjs.readthedocs.org/en/latest/_static/buster-logo.png'
+    'show_okfn_logo': False,
+    'git_repo': 'https://github.com/azu/busterjs-ebook',
+    'logo_icon': 'buster-logo.png'
 }
 # reload option
 # Trueならreadthedocs
