@@ -17,8 +17,9 @@ Travis CIでブラウザテスト
 
 実際に `Travis CI`_ で動くサンプルプロジェクトを作ってみましょう。
 
-* .. image:: https://secure.travis-ci.org/azu/BusterJS_TravisCI.png?branch=master
-	:target: http://travis-ci.org/azu/BusterJS_TravisCI
+* .. raw:: html
+
+      <a class="first reference external image-reference" href="http://travis-ci.org/azu/BusterJS_TravisCI"><img alt="https://secure.travis-ci.org/azu/BusterJS_TravisCI.png?branch=master" src="https://secure.travis-ci.org/azu/BusterJS_TravisCI.png?branch=master" /></a>
 *  `azu/BusterJS-TravisCI`_
 
 npm package.json
@@ -125,8 +126,9 @@ Githubで公開してるJavaScriptプロジェクトのCIが簡単に行うこ�
 
 サンプルプロジェクト
 
-* .. image:: https://secure.travis-ci.org/azu/BusterJS_TravisCI.png?branch=master
-	:target: http://travis-ci.org/azu/BusterJS_TravisCI
+* .. raw:: html
+
+    <a class="first reference external image-reference" href="http://travis-ci.org/azu/BusterJS_TravisCI"><img alt="https://secure.travis-ci.org/azu/BusterJS_TravisCI.png?branch=master" src="https://secure.travis-ci.org/azu/BusterJS_TravisCI.png?branch=master" /></a>
 *  `azu/BusterJS-TravisCI`_
 
 `Travis CI`_ ではビルドステータスの画像を取得するURLもあるので、Githubにreadmeなどに貼り付けておくと分かりやすい。
@@ -135,8 +137,9 @@ Githubで公開してるJavaScriptプロジェクトのCIが簡単に行うこ�
 
 また、このドキュメントで使用されているコードも同様にBuster.JSとTravisCIを使いテストされています
 
-* .. image:: https://secure.travis-ci.org/azu/busterjs-kumite.png?branch=master
-    :target: http://travis-ci.org/azu/busterjs-kumite
+* .. raw:: html
+
+    <a class="reference external image-reference" href="http://travis-ci.org/azu/busterjs-kumite"><img alt="https://secure.travis-ci.org/azu/busterjs-kumite.png?branch=master" src="https://secure.travis-ci.org/azu/busterjs-kumite.png?branch=master" /></a>
 * `azu/busterjs-kumite <https://github.com/azu/BusterJS-Kumite>`_
 
 .. _`Travis CI`: http://travis-ci.org/
