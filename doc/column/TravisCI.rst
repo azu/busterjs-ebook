@@ -142,5 +142,28 @@ Githubで公開してるJavaScriptプロジェクトのCIが簡単に行うこ�
     <a class="reference external image-reference" href="http://travis-ci.org/azu/busterjs-kumite"><img alt="https://secure.travis-ci.org/azu/busterjs-kumite.png?branch=master" src="https://secure.travis-ci.org/azu/busterjs-kumite.png?branch=master" /></a>
 * `azu/busterjs-kumite <https://github.com/azu/BusterJS-Kumite>`_
 
+
+他のCIサービスについて
+=================================
+
+`Travis CI`_ 以外にも `Drone.io`_  やJenkins系の `BuildHive`_ 等CIサービスは色々あります。
+
+また、今回は `Travis CI`_  にデフォルトでインストールされてるFirefoxとPhantomJSでのみでテストを動かしましたが、
+少し設定を加えればChromeも同様にテストを動かすことができます。
+
+それらのことについてまとめた記事が以下で公開されています。
+
+.. seealso::
+
+    `CI as a Service – ブラウザを使ったJavaScriptのテストをCIサービスで動かす方法のまとめ <http://efcl.info/2013/0321/res3234/>`_
+	    `Travis CI`_ , `Drone.io`_ , `BuildHive`_ , `Jepso CI`_ でテストを動かす方法についてまとめた記事
+
+
+
 .. _`Travis CI`: http://travis-ci.org/
 .. _`azu/BusterJS-TravisCI`: https://github.com/azu/BusterJS_TravisCI
+
+.. _`Drone.io`: https://drone.io/
+.. _`BuildHive`: https://buildhive.cloudbees.com/
+.. _`Jepso CI`: https://jepso-ci.com/
+
