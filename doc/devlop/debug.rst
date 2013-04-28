@@ -139,7 +139,7 @@ Error.stackの情報
 
 	`testacular <https://github.com/vojtajina/testacular/>`_
 		testacular は `WebStormからtestacularでテストとデバッグをする方法 <http://efcl.info/2012/1028/res3154/>`_ のような連携をするために、
-		スタックトレースの内容を整形する `ErrorFormatter <https://github.com/vojtajina/testacular/blob/8638ce16bb142d2f7978c59ee2351a8cf20fde4d/lib/reporter.js#L7>`_ の仕組みが入っています
+		スタックトレースの内容を整形する `ErrorFormatter <https://github.com/vojtajina/karma/blob/8638ce16bb142d2f7978c59ee2351a8cf20fde4d/lib/reporter.js#L7>`_ の仕組みが入っています
 
 本来なら、スタックトレースにはテストファイル以外にも |Buster.JS| 自体に関するトレース等も出るはずですが、
 デフォルトでは ``(./test/failure-test.js:15:20)`` といったようなテストファイルに関係する部分しか出ていないことが分かります。

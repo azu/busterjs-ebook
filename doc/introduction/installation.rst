@@ -100,5 +100,5 @@ SSH接続ができたら、後は通常のLinuxでの |Buster.JS| 環境と同�
 
 
 .. `try-busterjs`_: https://github.com/mroderick/try-busterjs
-.. [#sshclient] `Get Started With Vagrant On Windows — zamboni 0.8 documentation <http://mozilla.github.com/zamboni/topics/install-zamboni/vagrant-on-windows.html>`_
+.. [#sshclient] `Get Started With Vagrant On Windows — zamboni 0.8 documentation <http://zamboni.readthedocs.org/en/latest/topics/install-zamboni/vagrant-on-windows.html>`_
 .. [#ssh] `WindowsからVM上のLinuxをSSH経由で利用する開発環境の構築 | Web scratch <http://efcl.info/2011/0420/res2588/>`_

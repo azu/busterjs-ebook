@@ -163,7 +163,7 @@ Githubで公開してるJavaScriptプロジェクトのCIが簡単に行うこ�
 .. _`Travis CI`: http://travis-ci.org/
 .. _`azu/BusterJS-TravisCI`: https://github.com/azu/BusterJS_TravisCI
 
-.. _`Drone.io`: https://drone.io/
+.. _`Drone.io`: https://drone.io
 .. _`BuildHive`: https://buildhive.cloudbees.com/
 .. _`Jepso CI`: https://jepso-ci.com/
 
